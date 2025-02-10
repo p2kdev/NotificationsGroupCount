@@ -74,9 +74,9 @@ CGFloat ngcBadgeSizeHigherThan10 = 30;
     // Hide if text is empty or zero
     self.hidden = (text == nil || [text isEqualToString:@""] || [text isEqualToString:@"0"]);
     if ([text integerValue] > 99) {
-        self.badgeLabel.font = [UIFont boldSystemFontOfSize:8.0];
+        self.badgeLabel.font = [UIFont boldSystemFontOfSize:9.0];
     } else if ([text integerValue] > 9) {   
-        self.badgeLabel.font = [UIFont boldSystemFontOfSize:10.0];
+        self.badgeLabel.font = [UIFont boldSystemFontOfSize:11];
     } else {
         self.badgeLabel.font = [UIFont boldSystemFontOfSize:13.0];
     }
